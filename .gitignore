@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Database backups
+*.sql
+*.sql.gz
+*.tar.gz
+
+# Runtime data
+backups/
+
+# OS files
+.DS_Store
+
+# Secrets
+*.pem
+*.key
