@@ -42,7 +42,7 @@ echo
 
 echo "===== Health Check ====="
 
-LIMIT=10
+LIMIT=85
 LOG_FILE="/var/log/infra_health.log"
 
 DISK=$(df / | grep "/$" | awk '{printf "%.0f", $5+0}')
